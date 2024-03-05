@@ -52,7 +52,7 @@ jobs:
           run: npm install
 
         - name: Code-coverage Testing
-          run: npm run code-coverage
+          run: npm run coverage
 
         - name: Archive code-coverage Result
           if: always()
